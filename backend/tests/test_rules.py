@@ -1,5 +1,5 @@
 import json
-from ..rules import run_engine
+from rules import run_engine
 
 # 載入所有規則
 with open("i:/vscoding/datamining/v01/backend/rules.json", "r", encoding="utf-8") as f:
